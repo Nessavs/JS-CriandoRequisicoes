@@ -1,0 +1,12 @@
+🌺Como inicializar para conseguir rodar esse programa e a API:
+🌺Já com o Node instalado.
+🌺No terminal, digite:
+npm init (clique enter em tudo)
+npm install json-server (caso haja erro, executar os seguintes comandos:
+Set-ExecutionPolicy RemoteSigned
+Digitar a letra A (estará escrito "sim para todos")
+🌺Após:
+npx json-server --watch db.json ou
+json-server --watch db.json
+🌺Se ele não encontrar o locahost desejado, como o http://localhost:3000/videos da aula, precisará inserir onde está o caminho do json.:
+npx json-server --watch C:\Users\User\Documents\6-aluraplay-requisicoes-main\aluraplay-requisicoes-main\db.json
